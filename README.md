@@ -36,10 +36,15 @@ The images below capture the desire for such support. I've had this game for 8 d
 | | |
 | --- | --- |
 | [![Andy's Github Req](imgs/GitHub_Andy.PNG)](imgs/GitHub_Andy.PNG)<br>*Andy's Github, request for RL support* | [![Realistic Livestock Github](imgs/Github_RLMod.PNG)](imgs/Github_RLMod.PNG)<br>*Realistic Livestock Github, support request* |
-| [![DrXml Butcher](imgs/DrXml1.PNG)](imgs/DrXml1.PNG)<br>*DrXml RL Support Request* | [![Follow-up licensing note](imgs/DrXml2.PNG)](imgs/DrXml2.PNG)<br>*Follow-up DrXML* |
+| [![DrXml Butcher](imgs/DrXml1.PNG)](imgs/DrXml1.PNG)<br>*DrXml RL Support Inquiry* | [![Follow-up licensing note](imgs/DrXml2.PNG)](imgs/DrXml2.PNG)<br>*Follow-up DrXML* |
 
 
-ToDo:
+ToDo/Current bugs:
+
+Transfer Menu is weird if your first is trailer->butcher. It's like half of the menu that's there isn't supposed to be (You shouldn't have an RL Messages tab from the trailer, for some reason- that's how RL is coded), to 'fix' the menu I have to open the Animal Dialog menu from a "true" husbandry first, then head over to the butcher. It's just UI consistency. Kind of. 
+
+Kind of? Because when I just modified Andy's script, I had "Move Selected" (an RL feature) that would let me send 5 animals at once, the way the trailer works. With this Override file, it's throwing a "Buy Selected" where that move button should be, and doesn't move the animals when clicked. Only one at a time works right now.
+
 Make modifier values XML attributes, so users may select their buffs/debuffs as they wish.
 
 
