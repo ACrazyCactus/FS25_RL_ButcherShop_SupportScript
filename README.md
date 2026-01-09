@@ -43,8 +43,6 @@ ToDo/Current bugs:
 
 Transfer Menu is weird if your first is trailer->butcher. It's like half of the menu that's there isn't supposed to be (You shouldn't have an RL Messages tab from the trailer, for some reason- that's how RL is coded), to 'fix' the menu I have to open the Animal Dialog menu from a "true" husbandry first, then head over to the butcher. It's just UI consistency. Kind of. 
 
-Kind of? Because when I just modified Andy's script, I had "Move Selected" (an RL feature) that would let me send 5 animals at once, the way the trailer works. With this Override file, it's throwing a "Buy Selected" where that move button should be, and doesn't move the animals when clicked. Only one at a time works right now.
-
 Make modifier values XML attributes, so users may select their buffs/debuffs as they wish.
 
 
